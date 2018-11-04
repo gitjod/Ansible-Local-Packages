@@ -3,4 +3,4 @@
    become: true 
    tasks:
      - include: tasks/local_rpm_packages.yml
-     - include: tasks/local_flatpak_packages.yml
+     #- include: tasks/local_flatpak_packages.yml
